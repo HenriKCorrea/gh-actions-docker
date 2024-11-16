@@ -34,4 +34,4 @@ jobs:
         with:
           context: .    # The path to the Dockerfile (current directory)
           push: true    # Push the image to Docker Hub
-          tags: ${{ secrets.DOCKER_USERNAME }}/hello-world:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/gh-actions-docker:latest
